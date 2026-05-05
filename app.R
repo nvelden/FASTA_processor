@@ -193,7 +193,15 @@ ui <- fluidPage(
         background: #f5fbfa;
       }
       .shiny-download-link {
-        display: block;
+        align-items: center;
+        display: flex;
+        gap: 6px;
+        justify-content: flex-start;
+        line-height: 1.25;
+        min-height: 34px;
+        overflow-wrap: break-word;
+        padding: 8px 10px;
+        white-space: normal;
         width: 100%;
         margin: 8px 0;
         text-align: left;
